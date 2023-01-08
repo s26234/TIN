@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pracuj.pl - oferty pracy dla specjalistów</title>
+<style>
+	body {
+    margin:0px;
+    padding: 0px;
+    background-color: #f8f8f8;
+    color:#333;
+  }
+
+
+  @font-face {
+  font-family: custom-font.ttf;
+  src: url(custom-font.ttf);
+}
+
+div {
+  font-family: myFirstFont;
+}
+
+  	.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2px 0px;
+  text-align: left;
+  margin:0px 0px 0px -10px ;
+  color: #604020;
+  font-size:10px;
+  
+
+}
+.marg {
+	margin-left: 20px;
+}
+
+      #layout {
+      display: grid;
+      grid-template-rows: [header-start] 100px [content-start] 400px [footer-start] 100px;
+      grid-template-columns: [ads] 200px [main] 1fr [links] 200px;
+      grid-template-areas:
+        "header header header"
+        "ads main links"
+        "footer footer footer";
+}
+      }
+        #layout > div {
+            background-color: #ccc;
+            border: 1px solid #000;
+            padding: 10px;
+        }
+
+        .section-1 {
+        	margin-top: 70px;
+        	margin-left: center;
+        	text-align: center;
+        }
+        .header {
+        	background-color: #333;
+        	color: #fff;
+
+        }
+
+        .footer {
+        	overflow: hidden;
+  		background-color: black;
+  		position: fixed;
+  		bottom: 0;
+  		width: 100%;
+  		padding: 2px 0px;
+  		text-align: left;
+  		margin:0px 0px 0px -10px ;
+  		color: #604020;
+  		font-size:10px;
+  		list-style: none;
+
+        }
+        .footer-inner {
+        	font-weight: bold;
+    		color: white;
+    		margin: 10px 10px 10px 10px;
+    		padding: 3px 0px 3px 20px;
+        }
+
+        .logo {
+
+        }
+        .aside {
+        	background-color: lightgrey;
+        }
+  </style>
+
+
+</head>
+<body>
+
+
+<header class="header navbar">
+	<h2>
+  	<nav>
+<a class="marg" href="/onas/">O nas</a> |
+<a href="/oferta/">Oferta</a> |
+<a href="/doradztwo/">Doradztwo</a> |
+<a href="/kontakt/">Kontakt</a>
+</nav>
+  </h2>
+</header>
+
+
+
+
+<main>
+  <section class="section-1">
+    <img src="img/company-logo.png" alt="Logo firmy Pracuj.pl" class="logo">
+    <h1 class="heading-1">Znajdź swoje wymarzone zatrudnienie z Pracuj.pl</h1>
+    <p>Jesteśmy liderem na rynku pracy w Polsce, oferując setki ofert pracy dla specjalistów z różnych branż. Nasz zespół doradców pomoże Ci w doborze odpowiedniej oferty i przygotuje Cię do rozmowy kwalifikacyjnej.</p>
+  </section>
+
+  <section class="section-2">
+    <h2 class="heading-2">Najnowsze oferty pracy</h2>
+    <article class="article-1">
+      <h3 class="heading-3">Specjalista ds. marketingu</h3>
+      <p>Poszukujemy doświadczonego specjalisty ds. marketingu, który będzie odpowiedzialny za tworzenie i realizację strategii marketingowej oraz pozyskiwanie nowych klientów.</p>
+      <ul class="article-info">
+        <li>Miejsce pracy: Warszawa</li>
+        <li>Wymagane doświadczenie: min. 3 lata</li>
+        <li>Wynagrodzenie: do negocjacji</li>
+      </ul>
+      <a href="#" class="article-link">Więcej informacji</a>
+    </article>
+    <article class="article-2">
+      <h3 class="heading-3">Kierownik działu IT</h3>
+      <p>Szukamy kandydata na stanowisko kierownika działu IT, który będzie odpowiedzialny za zarządzanie zespołem programistów oraz rozwój systemójów informatycznych w firmie.</p>
+      <ul class="article-info">
+        <li>Miejsce pracy: Kraków</li>
+        <li>Wymagane doświadczenie: min. 5 lat</li>
+        <li>Wynagrodzenie: do negocjacji</li>
+      </ul>
+      <a href="#" class="article-link">Więcej informacji</a>
+    </article>
+    <article class="article-3">
+      <h3 class="heading-3">Doradca klienta</h3>
+      <p>Poszukujemy energicznych i komunikatywnych kandydatów na stanowisko doradcy klienta, którzy będą odpowiedzialni za obsługę i doradztwo dla naszych klientów.</p>
+      <ul class="article-info">
+        <li>Miejsce pracy: Wrocław</li>
+        <li>Wymagane doświadczenie: nie wymagane</li>
+        <li>Wynagrodzenie: do negocjacji</li>
+      </ul>
+      <a href="#" class="article-link">Więcej informacji</a>
+    </article>
+  </section>
+
+
+  <aside class="aside">
+    <h2 class="heading-2">Dlaczego warto z nami pracować?</h2>
+    <ul class="aside-list">
+      <li>Nieustannie rozwijamy naszą ofertę, aby zapewnić naszym pracownikom możliwość rozwoju zawodowego</li>
+      <li>Oferujemy atrakcyjne wynagrodzenie oraz bogaty pakiet benefitów</li>
+      <li>Posiadamy profesjonalny zespół doradców, którzy pomogą Ci w doborze odpowiedniej oferty pracy</li>
+    </ul>
+  </aside>
+
+
+  <section class="section-3">
+    <h2 class="heading-2">Ceny usług doradczych</h2>
+    <table class="pricing-table">
+      <tr>
+        <th>Usługa</th>
+        <th>Cena</th>
+      </tr>
+      <tr>
+        <td>Przygotowanie do rozmowy kwalifikacyjnej</td>
+        <td>300 zł</td>
+      </tr>
+      <tr>
+        <td>Opracowanie profesjonalnego CV i listu motywacyjnego</td>
+        <td>500 zł</td>
+      </tr>
+      <tr>
+        <td>Porady dotyczącekariiery zawodowej</td>
+        <td>400 zł/godz</td>
+      </tr>
+    </table>
+  </section>
+  <section class="section-4">
+    <h2 class="heading-2">Skontaktuj się z nami</h2>
+
+  </section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="footer-inner">
+    <img src="img/company-logo-white.png" alt="Logo firmy Pracuj.pl" class="logo">
+    <p>Copyright &copy; 2020 Pracuj.pl. Wszystkie prawa zastrzeżone</p>
+   
+  </div>
+</footer>
+</body>
+</html>
